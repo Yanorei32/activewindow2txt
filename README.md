@@ -33,8 +33,8 @@ Cygwin environment:
 ```bash
 g++ \
 	main.cxx \
-	'/cygdrive/c/Program Files (x86)/Windows Kits/10/Lib/10.0.18362.0/um/x64/Psapi.Lib' \
-	'/cygdrive/c/Program Files (x86)/Windows Kits/10/Lib/10.0.18362.0/um/x64/ShLwApi.Lib' \
+	/cygdrive/c/Windows/System32/psapi.dll \
+	/cygdrive/c/Windows/System32/shlwapi.dll \
 	--std=c++20 \
 	-o activewindow2txt_cyg.exe
 ```
