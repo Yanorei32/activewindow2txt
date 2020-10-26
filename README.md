@@ -23,7 +23,7 @@ cl ^
 	"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.18362.0\um\x64\Psapi.Lib" ^
 	"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.18362.0\um\x64\ShLwApi.Lib" ^
 	"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.18362.0\um\x64\User32.Lib" ^
-	/std:c++latest ^
+	/std:c++17 ^
 	/Fe:activewindow2txt.exe
 ```
 
@@ -35,7 +35,7 @@ g++ \
 	main.cxx \
 	/cygdrive/c/Windows/System32/psapi.dll \
 	/cygdrive/c/Windows/System32/shlwapi.dll \
-	--std=c++20 \
+	--std=c++17 \
 	-o activewindow2txt_cyg.exe
 ```
 
