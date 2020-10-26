@@ -1,5 +1,14 @@
 # activewindow2txt
 
+## format
+
+| text                                  | description                      |
+|:--------------------------------------|:---------------------------------|
+| `{activewindow2txt:title}`            | Window Title                     |
+| `{activewindow2txt:processId}`        | Process ID                       |
+| `{activewindow2txt:applicationPath}`  | Application executable full path |
+| `{activewindow2txt:applicationName}`  | Application executable name      |
+| `{activewindow2txt:applicationAlias}` | Application alias name           |
 
 ## build (example)
 
