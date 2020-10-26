@@ -3,13 +3,18 @@
 #include <filesystem>
 #include <fstream>
 #include <iostream>
+#include <sstream>
 #include <string>
 #include <thread>
 
 #define NOMINMAX
 #include <windows.h>
+
+#include <handleapi.h>
 #include <psapi.h>
 #include <shlwapi.h>
+#include <stringapiset.h>
+#include <winuser.h>
 
 std::string replaceAll(
 	std::string str,
